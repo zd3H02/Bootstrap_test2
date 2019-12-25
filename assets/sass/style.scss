@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 
-h1{
+h2{
     color: red;
 
     &:hover {
-        color: blue;
+        color: yellow;
     };
 }
