@@ -1,10 +1,19 @@
 @charset "UTF-8";
 
+@import "bootstrap";
 
-h2{
-    color: red;
+body {
+    padding-top: 100px;
+}
+
+h2 {
+    color: $primary;
 
     &:hover {
         color: yellow;
-    };
+    }
+}
+
+.topics p {
+    text-align: justify;
 }
