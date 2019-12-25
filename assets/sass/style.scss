@@ -6,14 +6,17 @@ body {
     padding-top: 100px;
 }
 
-h2 {
-    color: $primary;
+.topics {
+    &__title {
+        color: $primary;
 
-    &:hover {
-        color: yellow;
+        &:hover {
+            color: yellow;
+        }
+
     }
-}
 
-.topics p {
-    text-align: justify;
+    &__detail {
+        text-align: justify;
+    }
 }
